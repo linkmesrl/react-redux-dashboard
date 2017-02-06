@@ -36,7 +36,6 @@
           },
           {
             "url": "GET_LOLLIPOPS",
-            "label": "Lollipops",
             "mapping": {
               "keys": {
                 "label": "Lollipops",
@@ -48,7 +47,7 @@
             }
           }
         ],
-        "layout": { "x": 0, "y": 0, "w": 2, "h": 1, "minW": 1, "maxW": 2, "minH": 1, "maxH": 1 }
+        "layout": { "x": 0, "y": 0, "w": 1, "h": 1, "minW": 1, "maxW": 2, "minH": 1, "maxH": 1 }
       },
       {
         "title": "Candies percentage",
@@ -104,7 +103,50 @@
             "columns": []
           }
         ],
-        "layout": { "x": 1, "y": 1, "w": 1, "h": 2, "minW": 1, "maxW": 2, "minH": 2, "maxH": 2 }
+        "layout": { "x": 1, "y": 0, "w": 1, "h": 2, "minW": 1, "maxW": 2, "minH": 2, "maxH": 2 }
+      },
+      {
+        "title": "Snacks count",
+        "name": "Info",
+        "endpoints": [
+          {
+            "url": "GET_LIONS",
+            "mapping": {
+              "keys": {
+                "label": "Lions",
+                "value": {
+                  "name": "count",
+                  "type": "number"
+                }
+              }
+            }
+          },
+          {
+            "url": "GET_BOUNTIES",
+            "mapping": {
+              "keys": {
+                "label": "Bounty",
+                "value": {
+                  "name": "count",
+                  "type": "number"
+                }
+              }
+            }
+          },
+          {
+            "url": "GET_MARS",
+            "mapping": {
+              "keys": {
+                "label": "Mars",
+                "value": {
+                  "name": "count",
+                  "type": "number"
+                }
+              }
+            }
+          }
+        ],
+        "layout": { "x": 1, "y": 2, "w": 1, "h": 1, "minW": 1, "maxW": 2, "minH": 1, "maxH": 1 }
       },
       {
         "title": "Purchases",
