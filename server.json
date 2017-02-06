@@ -1,0 +1,25 @@
+{
+  "candies": [
+    { "id": 1, "name": "marshmallows", "count": "100" },
+    { "id": 2, "name": "gelatines", "count": "80" },
+    { "id": 3, "name": "lollipops", "count": "75" }
+  ],
+  "snacks": [
+    { "id": 1, "name": "lion", "count": "77" },
+    { "id": 2, "name": "bounty", "count": "30" },
+    { "id": 3, "name": "mars", "count": "75" },
+    { "id": 4, "name": "snickers", "count": "135" },
+    { "id": 5, "name": "m&m's", "count": "176" },
+    { "id": 6, "name": "twix", "count": "22" }
+  ],
+  "purchases": [
+    { "name": "marshmallows", "type": "candy", "timestamp": 1486283400000, "value": 40 },
+    { "name": "gelatines", "type": "candy", "timestamp": 1486287000000, "value": 120 },
+    { "name": "mars", "type": "snack", "timestamp": 1486301400000, "value": 133 },
+    { "name": "snickers", "type": "snack", "timestamp": 1486308600000, "value": 22 },
+    { "name": "lollipops", "type": "candy", "timestamp": 1486308600000, "value": 44 },
+    { "name": "m&m's", "type": "snack", "timestamp": 1486301400000, "value": 121 },
+    { "name": "twix", "type": "snack", "timestamp": 1486308600000, "value": 156 },
+    { "name": "marshmallows", "type": "candy", "timestamp": 1486283400000, "value": 76 }
+  ]
+}

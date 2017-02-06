@@ -1,0 +1,139 @@
+[
+  {
+    "title": "Candies count",
+    "name": "Info",
+    "endpoints": [
+      {
+        "url": "GET_MARSHMALLOWS",
+        "mapping": {
+          "keys": {
+            "label": "Marshmallows",
+            "value": {
+              "name": "count",
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "url": "GET_GELATINES",
+        "mapping": {
+          "keys": {
+            "label": "Gelatines",
+            "value": {
+              "name": "count",
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "url": "GET_LOLLIPOPS",
+        "label": "Lollipops",
+        "mapping": {
+          "keys": {
+            "label": "Lollipops",
+            "value": {
+              "name": "count",
+              "type": "number"
+            }
+          }
+        }
+      }
+    ],
+    "layout": { "w": 2, "h": 1, "minW": 1, "maxW": 2, "minH": 1, "maxH": 1 }
+  },
+  {
+    "title": "Candies percentage",
+    "name": "PieChart",
+    "endpoints": [
+      {
+        "url": "GET_CANDIES",
+        "columns": [],
+        "mapping": {
+          "keys": {
+            "label": "name",
+            "value": {
+              "name": "count",
+              "type": "number"
+            }
+          }
+        }
+      }
+    ],
+    "layout": { "w": 1, "h": 2, "minW": 1, "maxW": 1, "minH": 2, "maxH": 2 }
+  },
+  {
+    "title": "Snacks percentage",
+    "name": "ColumnChart",
+    "endpoints": [
+      {
+        "url": "GET_CANDIES",
+        "mapping": {
+          "keys": {
+            "label": "name",
+            "value": {
+              "name": "count",
+              "label": "Candies",
+              "type": "number"
+            }
+          }
+        },
+        "columns": []
+      },
+      {
+        "url": "GET_SNACKS",
+        "mapping": {
+          "color": "green",
+          "keys": {
+            "label": "name",
+            "value": {
+              "name": "count",
+              "label": "Snacks",
+              "type": "number"
+            }
+          }
+        },
+        "columns": []
+      }
+    ],
+    "layout": { "w": 1, "h": 2, "minW": 1, "maxW": 2, "minH": 2, "maxH": 2 }
+  },
+  {
+    "title": "Purchases",
+    "name": "LineChart",
+    "endpoints": [
+      {
+        "url": "GET_PURCHASES",
+        "mapping": {
+          "statuses": ["candy", "snack"],
+          "colors": ["blue", "red"],
+          "labels": ["Time", "Candies", "Snacks"],
+          "keys": {
+            "label": "type",
+            "timestamp": "timestamp",
+            "value": "value"
+          }
+        }
+      }
+    ],
+    "layout": { "w": 2, "h": 2, "minW": 1, "maxW": 2, "minH": 2, "maxH": 2 }
+  },
+  {
+    "title": "TableChart Plugin",
+    "name": "TableChart",
+    "endpoints": [
+      {
+        "url": "GET_PURCHASES",
+        "columns": [
+          { "label": "Name", "value": "name" },
+          { "label": "Type", "value": "type" },
+          { "label": "Quantity", "value": "value" },
+          { "label": "Time ago", "value": "timestamp", "mapping": { "type": "timeAgo" } },
+          { "label": "Date", "value": "timestamp", "mapping": { "type": "date", "format": "YYYY/MM/DD hh:mm" } }
+        ]
+      }
+    ],
+    "layout": { "w": 2, "h": 2, "minW": 2, "maxW": 2, "minH": 2, "maxH": 2 }
+  }
+]

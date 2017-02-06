@@ -1,0 +1,28 @@
+{
+  "name": "analytics-cp-pie-chart-plugin",
+  "version": "0.0.45",
+  "description": "Pie Chart plugin for analytics-cp",
+  "keywords": [
+    "pie",
+    "chart",
+    "plugin",
+    "analytics-cp"
+  ],
+  "homepage": "https://noon.com/",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Paolo Rovella",
+    "email": "paolo.rovella@radicalbit.io"
+  },
+  "scripts": {
+    "install": "node ./script.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "analytics-cp-pie-chart-plugin@0.0.45",
+  "_shasum": "ad8fdcfad81b0f583c7fac0a4d858653145a28f9",
+  "_from": "analytics-cp-pie-chart-plugin@latest"
+}

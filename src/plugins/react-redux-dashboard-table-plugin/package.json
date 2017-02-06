@@ -1,0 +1,27 @@
+{
+  "name": "analytics-cp-table-plugin",
+  "version": "0.0.17",
+  "description": "Table plugin for analytics-cp",
+  "keywords": [
+    "table",
+    "plugin",
+    "analytics-cp"
+  ],
+  "homepage": "https://noon.com/",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Paolo Rovella",
+    "email": "paolo.rovella@radicalbit.io"
+  },
+  "scripts": {
+    "install": "node ./script.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "analytics-cp-table-plugin@0.0.17",
+  "_shasum": "98e65d280dd6fad8f046248aaca55eef99543c9c",
+  "_from": "analytics-cp-table-plugin@latest"
+}

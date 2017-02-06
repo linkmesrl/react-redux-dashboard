@@ -1,0 +1,28 @@
+{
+  "name": "analytics-cp-column-chart-plugin",
+  "version": "0.0.23",
+  "description": "Column Chart plugin for analytics-cp",
+  "keywords": [
+    "column",
+    "chart",
+    "plugin",
+    "analytics-cp"
+  ],
+  "homepage": "https://noon.com/",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Paolo Rovella",
+    "email": "paolo.rovella@radicalbit.io"
+  },
+  "scripts": {
+    "install": "node ./script.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "analytics-cp-column-chart-plugin@0.0.23",
+  "_shasum": "ae2a214f1d3ed884126ab5a58615039216693603",
+  "_from": "analytics-cp-column-chart-plugin@latest"
+}

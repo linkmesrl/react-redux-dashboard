@@ -1,0 +1,34 @@
+$react-dates-color-primary: #007eff;
+$react-dates-color-primary-dark: #ebf5ff;
+$react-dates-color-primary-shade-1: #007eff;
+$react-dates-color-primary-shade-2: #5bb2ff;
+$react-dates-color-primary-shade-3: #e4e7e7;
+$react-dates-color-primary-shade-4: #ebf5ff;
+$react-dates-color-focus: #ebf5ff;
+$react-dates-color-text-focus: #007eff;
+@import '~react-dates/css/variables.scss';
+@import '~react-dates/css/styles.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.ReactModal__Content {
+  padding: 0 !important;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.react-grid-item.react-grid-placeholder {
+  background: rgba(0, 126, 255, 0.08) !important;
+  border: 1px solid #007eff;
+  border-radius: 5px;
+}

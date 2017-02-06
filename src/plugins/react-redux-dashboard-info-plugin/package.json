@@ -1,0 +1,27 @@
+{
+  "name": "analytics-cp-info-plugin",
+  "version": "0.0.23",
+  "description": "Info plugin for analytics-cp",
+  "keywords": [
+    "info",
+    "plugin",
+    "analytics-cp"
+  ],
+  "homepage": "https://noon.com/",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Paolo Rovella",
+    "email": "paolo.rovella@radicalbit.io"
+  },
+  "scripts": {
+    "install": "node ./script.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "analytics-cp-info-plugin@0.0.23",
+  "_shasum": "ca1235e94a2a47b2dbc899230807e7ff09f348d8",
+  "_from": "analytics-cp-info-plugin@latest"
+}

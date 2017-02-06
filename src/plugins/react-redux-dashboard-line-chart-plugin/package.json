@@ -1,0 +1,28 @@
+{
+  "name": "analytics-cp-line-chart-plugin",
+  "version": "0.0.50",
+  "description": "Line Chart plugin for analytics-cp",
+  "keywords": [
+    "line",
+    "chart",
+    "plugin",
+    "analytics-cp"
+  ],
+  "homepage": "https://noon.com/",
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "Paolo Rovella",
+    "email": "paolo.rovella@radicalbit.io"
+  },
+  "scripts": {
+    "install": "node ./script.js"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "analytics-cp-line-chart-plugin@0.0.50",
+  "_shasum": "d70604caec68e5c2ba61eb3a5601de7d56f793a5",
+  "_from": "analytics-cp-line-chart-plugin@latest"
+}

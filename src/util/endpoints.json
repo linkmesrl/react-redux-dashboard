@@ -1,0 +1,86 @@
+{
+  "GET_CANDIES": {
+    "url": "/candies"
+  },
+  "GET_MARSHMALLOWS": {
+    "url": "/candies/1"
+  },
+  "GET_GELATINES": {
+    "url": "/candies/2"
+  },
+  "GET_LOLLIPOPS": {
+    "url": "/candies/3"
+  },
+  "GET_SNACKS": {
+    "url": "/snacks"
+  },
+  "GET_PURCHASES": {
+    "url": "/purchases"
+  },
+  "GET_SELECTION_SOURCE": {
+    "url": "/selection/source"
+  },
+  "GET_SELECTION_PVC": {
+    "url": "/selection/pvc"
+  },
+  "GET_PRIMARY_CATEGORY": {
+    "url": "/selection/primary-category"
+  },
+  "GET_PRODUCTS_COUNT": {
+    "url": "/products/count"
+  },
+  "GET_VIEWS_PERCENTAGE": {
+    "url": "/products/views/percentage"
+  },
+  "GET_PURCHASED_PERCENTAGE": {
+    "url": "/products/purchases/percentage"
+  },
+  "GET_PRODUCT_RATINGS": {
+    "url": "/product/ratings"
+  },
+  "GET_PRODUCT_RATING_AVERAGE": {
+    "url": "/product/rating/average"
+  },
+  "GET_VIEWS_PURCHASES_RATES_DAILY": {
+    "url": "/product/vp-rates/daily"
+  },
+  "GET_VIEWS_PURCHASES_RATES_WEEKLY": {
+    "url": "/product/vp-rates/weekly"
+  },
+  "GET_VIEWS_PURCHASES_RATES_MONTHLY": {
+    "url": "/product/vp-rates/monthly"
+  },
+  "GET_FIRST_PURCHASE_INTERVALS": {
+    "url": "/selection/first-purchase/intervals"
+  },
+  "GET_PRODUCT_RATE_OVER_TIME_DAILY": {
+    "url": "/product/r-rates/daily"
+  },
+  "GET_PRODUCT_RATE_OVER_TIME_WEEKLY": {
+    "url": "/product/r-rates/weekly"
+  },
+  "GET_PRODUCT_RATE_OVER_TIME_MONTHLY": {
+    "url": "/product/r-rates/monthly"
+  },
+  "GET_DAY_GROWTH_7": {
+    "url": "/products/day-growth/7"
+  },
+  "GET_DAY_GROWTH_30": {
+    "url": "/products/day-growth/30"
+  },
+  "GET_AVAILABLE_PRODUCTS_RATES_RANGE": {
+    "url": "/product/ap-rates/range"
+  },
+  "GET_SPEED_SALE_OVER_TIME_DAILY": {
+    "url": "/product/ss-rates/speed/daily"
+  },
+  "GET_SPEED_SALE_OVER_TIME_WEEKLY": {
+    "url": "/product/ss-rates/speed/weekly"
+  },
+  "GET_SPEED_SALE_OVER_TIME_MONTHLY": {
+    "url": "/product/ss-rates/speed/monthly"
+  },
+  "GET_PRODUCT_DETAIL": {
+    "url": "/product/detail"
+  }
+}
