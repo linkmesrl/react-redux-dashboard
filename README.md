@@ -1,6 +1,8 @@
 # React Redux Dashboard
 A json-configurable dashboard bootstrapped with `create-react-app` made with `react`, `redux`, `redux-saga` and `react-google-charts`
 
+![Screenshot](/src/assets/screenshot.png?raw=true)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Run](#run)
