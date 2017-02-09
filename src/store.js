@@ -2,7 +2,7 @@ import 'babel-polyfill';
 import { createStore, applyMiddleware, compose } from 'redux';
 
 import persistState, { mergePersistedState } from 'redux-localstorage';
-import adapter from 'redux-localstorage/lib/adapters/localStorage';
+import adapter from 'redux-localstorage/lib/adapters/sessionStorage';
 import debounce from 'redux-localstorage-debounce';
 
 import { browserHistory } from 'react-router';
@@ -25,7 +25,7 @@ const reducer = compose(
 
 const storage = compose(
   debounce(500),
-)(adapter(window.localStorage));
+)(adapter(window.sessionStorage));
 
 const enhancers = [
   applyMiddleware(...middlewares),
