@@ -6,21 +6,22 @@ import { ThemeProvider } from 'styled-components';
 import { theme } from 'components';
 
 import { Page } from 'hedron';
-import { NavigationLink, Navigation, Section } from 'components';
+import { NavigationItem, Navigation, Section } from 'components';
 
 class App extends Component {
   componentDidMount() {
     this.props.loadPlugins();
   }
   render() {
+    const current = this.props.location.pathname;
     return (
       <ThemeProvider theme={theme}>
         <div>
           <Navigation title={'React Redux Dashboard'}>
-            <NavigationLink to={"/dashboard/home"}>Home</NavigationLink>
-            <NavigationLink to={"/dashboard/demo"}>Demo</NavigationLink>
+            <NavigationItem to={"/dashboard/home"} current={current}>Home</NavigationItem>
+            <NavigationItem to={"/dashboard/demo"} current={current}>Demo</NavigationItem>
           </Navigation>
-          <Section padding={'40px 0'}>
+          <Section padding={'80px 20px'}>
             <Page width={'1170px'}>
               {this.props.children}
             </Page>

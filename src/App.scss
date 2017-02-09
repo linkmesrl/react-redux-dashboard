@@ -15,12 +15,18 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+
 .ReactModal__Content {
   padding: 0 !important;
 }
 
 .ReactModal__Overlay {
   background-color: rgba(0, 0, 0, 0.6) !important;
+  z-index: 9999 !important;
 }
 
 .ReactModal__Body--open {

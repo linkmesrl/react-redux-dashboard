@@ -38,12 +38,12 @@ class Dashboard extends Component {
     const { dashboardData } = this.props;
     return (
       <div>
-        <Row divisions={8} justifyContent={'space-between'} alignItems={'center'}>
-          <Column fluid sm={6}>
+        <Row divisions={12} justifyContent={'space-between'} alignItems={'center'}>
+          <Column fluid xs={12} sm={3}>
             <H2>{dashboardData.name}</H2>
           </Column>
-          <Column fluid sm={2}>
-            <Section textAlign={'right'}>
+          <Column fluid xs={12} sm={9}>
+            <Section textAlign={'right'} padding={'20px 0'}>
               <Button onClick={this.onAddPlugin}>Add widget</Button>
             </Section>
           </Column>
